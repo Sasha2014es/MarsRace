@@ -59,7 +59,7 @@ body {
 .image-option {
     height: 140px;
     display: flex;
-    padding: 0 !important;
+    padding: 0 ;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -74,11 +74,12 @@ body {
 }
 
 /* Покращуємо видимість результату для картинок */
-.answer-btn.correct { background-color: #28a745 !important; border: 3px solid #28a745 !important; }
-.answer-btn.wrong { background-color: #dc3545 !important; border: 3px solid #dc3545 !important; }
+.answer-btn.correct { background-color: #28a745; border: 3px solid #28a745 ; }
+.answer-btn.wrong { background-color: #dc3545 ; border: 3px solid #dc3545 ; }
 
 .image-option.correct img, .image-option.wrong img {
     opacity: 0.8; 
+}
   /* кнопка старт */
 #start-btn, #restart-btn {
     background: brown;
