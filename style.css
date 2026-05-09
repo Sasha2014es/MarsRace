@@ -63,7 +63,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: #2c1a1a; /* Темний фон на випадок, якщо картинка довго вантажиться */
+    background: #2c1a1a; 
 }
 
 .image-option img {
@@ -78,8 +78,7 @@ body {
 .answer-btn.wrong { background-color: #dc3545 !important; border: 3px solid #dc3545 !important; }
 
 .image-option.correct img, .image-option.wrong img {
-    opacity: 0.8; /* Трохи робимо прозорою картинку, щоб було видно колір кнопки під нею */
-}
+    opacity: 0.8; 
   /* кнопка старт */
 #start-btn, #restart-btn {
     background: brown;
@@ -99,12 +98,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Щоб долари не заважали клікати по кнопках */
-    z-index: -1; /* Задній план */
+    pointer-events: none; 
+    z-index: -1; 
     overflow: hidden;
 }
 
-/* Стиль однієї купюри */
+/* Стиль однієї зірки */
 .dollar {
     position: absolute;
     top: -50px;
