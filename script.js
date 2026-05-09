@@ -644,8 +644,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const img = document.createElement('img');
                 img.src = answer;
                 img.alt = "Варіант відповіді";
-                img.referrerPolicy = "no-referrer"; // Допомагає обійти блокування Wikimedia
-                img.loading = "eager"; // Завантажувати негайно
+                img.referrerPolicy = "no-referrer"; 
+                img.loading = "eager"; 
                 button.appendChild(img);
                 button.classList.add('image-option');
             } else {
